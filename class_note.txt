@@ -1,0 +1,7 @@
+01/16
+1. Work with Github
+
+    ==> git init
+    ==> git status
+    ==> git add .
+    
