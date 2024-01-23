@@ -1,0 +1,13 @@
+{% extends 'dbys/home.html' %}
+
+
+{%block content %}
+    {% for user in users %}
+        {% if user == "jaeyoung" %}
+            Hello {{user}}, Admin!
+        {% else %}
+            Hello {{ user }}
+        {% endif %}
+        
+    {% endfor %}
+{% endblock %}
